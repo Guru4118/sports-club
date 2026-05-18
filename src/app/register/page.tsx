@@ -97,7 +97,15 @@ export default function RegisterPage() {
       </div>
 
       <div className="container-xl section-py">
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 320px', gap: '40px', alignItems: 'start' }}>
+      <div
+  className="register-grid"
+  style={{
+    display: 'grid',
+    gridTemplateColumns: '1fr 320px',
+    gap: '40px',
+    alignItems: 'start',
+  }}
+>
 
           {/* ── Form ── */}
           <form onSubmit={handleSubmit} noValidate>
